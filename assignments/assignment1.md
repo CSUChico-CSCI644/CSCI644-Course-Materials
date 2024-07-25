@@ -9,3 +9,5 @@
 ## Submission
 
 Submit to [Canvas](https://canvas.csuchico.edu) the list of commands you used to deploy your instance of the Simple Microservice Example.
+
+Only thing that should be submitted is the commands in order that need to be executed.
