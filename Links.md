@@ -1,4 +1,4 @@
-* [Google Drive Shared Folder](https://drive.google.com/drive/folders/1xm_lv-BztyuED9-XGhh72__pFRKCRNw9?usp=sharing) - Shared folder of lecture slides, and other materials.
+* [One Drive Shared Folder]() - Shared folder of lecture slides, and other materials.
 * [Python](https://www.python.org/) - Python is extremely helpful in automating sysadmin tasks
 * [Git Basics Video](https://www.youtube.com/watch?v=0JgyAJMvZlY&feature=youtu.be) - Basic tutorial on using git for version control I recorded Spring 2020
 * [Learn Git Branching](https://learngitbranching.js.org/) - Excellent web tutorial working through a variety of use cases for git including using branches.
@@ -17,5 +17,4 @@
 * [Linux Upskill Challenge](https://linuxupskillchallenge.com/) - Useful reference similar to many of the assignments/labs
 * [Linux From Scratch](https://www.linuxfromscratch.org/) - A deep dive challenge beyond just sysadmin in understanding linux
 * [General Academic Email Etiquette](https://medium.com/@lportwoodstacer/how-to-email-your-professor-without-being-annoying-af-cf64ae0e4087#.h9ipxkg5z) - I'm fine with you calling me by my first name, but if you are going to use a salutation, make sure it's a correct one.
-* [Moodle](https://moodle.csuchico.edu) - We will be using the Moodle Learning Management System (LMS) this semester. The enrollment key was given out in lecture, email me if you missed the first lecture and didn't get the enrollment key for Moodle.
-* [Piazza](http://piazza.com/) - The discussion board site we will be using for this semester. I'll be posting announcements here. This is also where you should ask your generic, non-code specific questions.
+* [Ed Discussion](https://edstem.org/) - The discussion board site we will be using for this semester. I'll be posting announcements here. This is also where you should ask your generic, non-code specific questions. You can also ask me questions privately, make sure you register with the campus email that you should be invited to the class via.
