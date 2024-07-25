@@ -3,6 +3,7 @@
 ## Goals
 
 * Use Ansible 
+* Update gcloud docker to have Ansible
 * Deploy [Simple Microservice Example](https://github.com/CSUChico-CSCI644/simple-microservice-example) to GCP via Ansible and Ansible gcloud support
 * Submit Ansible Playbook(s) to accomplish this.
 
@@ -12,7 +13,7 @@ If you don't have a CSCI644 Git repo, go to Canvas to see the instructions for g
 
 You will submit many of the the assignments for this class to separate branches on your CSCI644 repo. Make sure you make an initial **main** branch first as this will make things easier.
 
-Now submit your ansible playbook(s) to the **assignment2** branch:
+Now submit your ansible playbook(s) and updated dockerfile to the **assignment2** branch:
 
 ```bash
 git checkout -b assignment2  #create branch and switch to it
