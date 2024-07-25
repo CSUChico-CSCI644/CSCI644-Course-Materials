@@ -1,4 +1,4 @@
-# CSCI345 Syllabus
+# CSCI644 Syllabus
 
 ## Instructor
 
@@ -6,22 +6,25 @@ Bryan Dixon
 
 ## Prerequisite
 
-CSCI 211 with a grade of C or higher. (or approved equivalents, check with your advisor)
+CSCI 311, or CSCI 605 and MATH/CSCI 485; and classified graduate standing.  
 
-Students who take this class without completing the prerequisite class will be given a failing grade.
+Students who take this class without completing the prerequisite will receive a failing grade.
 
+## Description
+
+This course introduces students to distributed system administration skills, setting up distributed computation environments, version control, build systems, dependency management, continuous integration, testing, cloud virtualization technologies, and setting up mobile, web, machine learning, artificial intelligence, and data science pipelines. 3 hours discussion.
 
 ## Course Accounts
 
 In addition to a campus lab account, you need an account in the CSCI assignment turn-in system.
 
-Go to [https://turnin.ecst.csuchico.edu](https://turnin.ecst.csuchico.edu "Tyson's Turnin System") and create a new account.
+Go to [https://inginious.csuchico.edu](https://inginious.csuchico.edu "INGInious System") and create a new account.
 
-Once you create an account, log on and enroll in CSCI 345, make sure you enroll in the correct section.
+Once you create an account, log on and enroll in CSCI 644, and enroll in the correct section.
 
 **I WILL DROP YOU FROM THE CLASS IF YOU DO NOT CREATE THIS ACCOUNT**
 
-You will potentially use this system to turn in some of your assignments, the rest will be submitted via GitHub.
+You will potentially use this system to turn in some of your assignments; the rest will be submitted via GitHub.
 
 ## Textbook
 
@@ -41,13 +44,13 @@ If you regularly skip class I will not answer questions on the material you miss
 
 Grades for this course will be relative. The students that do the best work will get an A, the students that don't do as well get a B, and so on. I will likely not be following at traditional percentage grades of 90% for an A, 80% for a B, etc., and I don't grade on a curve as if I applied blindly could result in grades actually being lowered if everyone is doing very well in the course.
 
-I will routinely post the grades to Moodle. If you are not happy with a grade, talk to me immediately. If you do not talk to me within a week of the posting of a grade, I will assume you think the grade is fair and accurate, and you will lose your right to dispute the grade.
+I will routinely post the grades to Canvas. If you are not happy with a grade, talk to me immediately. If you do not talk to me within a week of the posting of a grade, I will assume you think the grade is fair and accurate, and you will lose your right to dispute the grade.
 
 ### Grade Category Percentages:
 
 + Assignments 80% of course grade
-+ Final Project 10% of course grade
-+ Exam 10% of course grade (if this doesn't happen it will become part of your final project grade)
++ Readings 10% of course grade
++ Participation during paper discussions 10% of course grade 
 
 ### Grading Meetings
 
@@ -55,7 +58,7 @@ We are going to investigate all the projects you turn in to look for code plagia
 
 ## Assignments
 
-There will be 12 hands on assignments or labs.
+There will be numerous assignments or labs.
 
 ### Late Assignments:
 
@@ -66,17 +69,17 @@ Assignments will NOT be accepted more that 24 hours after the due date.
 
 As this is a upper division course you'll likely want to make use of my office hours for help as it is unlikely there are tutors or other such resources.
 
-We will be using Piazza for a class discussion board. I will enroll all students enrolled at the start of the semester, if you enrolled later you should email me if you aren't part of this discussion board as I'll also post announcements there. You should post any general questions here first as this will allow more students to benefit from the answer vs me potentially answering the same questions numerous times.
+We will be using Ed Discussion for a class discussion board. I will enroll all students enrolled at the start of the semester, if you enrolled later you should email me if you aren't part of this discussion board as I'll also post announcements there. You should post any general questions here as this will allow more students to benefit from the answer versus me potentially answering the same questions numerous times. I am also more likely to respond to these messages, so asking me private questions about your code/assignment here would be preferred as well. 
 
-Additionally, you can email me directly with any specific questions, the distinction would be help with your code or assignment that would be unique to you and sharing with the class on the discussion board would be considered cheating. Make sure you put **'CSCI345'** in the subject so it will be filtered correctly. **ALL EMAIL WITH NO SUBJECT WILL NOT BE OPENED**, so if you send me an email without a subject do not expect a response as I will not open it or respond to it.
+Additionally, you can email me directly with any specific questions, the distinction would be help with your code or assignment that would be unique to you and sharing with the class on the discussion board would be considered cheating. Make sure you put **'CSCI644'** in the subject so it will be filtered correctly. **ALL EMAIL WITH NO SUBJECT WILL NOT BE OPENED**, so if you send me an email without a subject do not expect a response as I will not open it or respond to it. I get too many emails, so it may take a while, or your email may get lost, so it may require you to resend. If I haven't responded in 24 hours try responding to the **same** email to bring it back into focus.
 
 I'll be making it a habit to respond immediately to emails received between 9am-5pm, except when I'll otherwise be in a meeting, lecture, etc. Any emails outside of those times will be answered as I can or potentially the next morning at 9am, so try to make sure to email me prior to 5pm.
 
-I will routinely communicate with the class via announcements on the Piazza board. Make sure your email on Moodle that is integrated into Piazza is one you check regularly so that you don't miss any of these communications.
+I will routinely communicate with the class via announcements on the Ed Discussion board. You should be able to set secondary emails on Ed Discussion to get notifications, so make sure you do this to make sure you don't miss any communications.
 
-If you don't have access to the class Piazza page make sure you email me for access. You will not receive the class e-mails and may miss important information about the class if your account wasn't created.
+If you don't have access to the class Ed Discussion page make sure you email me for access. You will not receive the class e-mails and may miss important information about the class if your account wasn't created.
 
-If you drop the class, you should be able to un-enroll from Moodle/Piazza to stop receiving messages. Let me know if you drop the class and still get e-mail.
+ **DO NOT MESSAGE ME ON CANVAS**, all messages sent this way will be ignored.
 
 
 ## Responsibilities
@@ -110,6 +113,7 @@ The bottom line is that you must do all the assignments on your own. Turning in 
 * giving your laptop that contains your program to another student
 * getting so much help on an assignment that you are no longer doing the assignment (this can come from one helper or many helpers)
 * crowdsourcing your code
+* Having a LLM do your assignments
 * the list can go on...
 
 
