@@ -18,7 +18,7 @@ Now submit your ansible playbook(s) to the **assignment2** branch:
 git checkout -b assignment2  #create branch and switch to it
 git add -A  #add all
 git commit -m "Assignment 2 Submission"  #Commit changes to branch
-git push origin assignment2  #Push code up to assignment1 branch on remote
+git push origin assignment2  #Push code up to assignment2 branch on remote
 ```
 
 Make sure your branch is exactly named `assignment2` matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
