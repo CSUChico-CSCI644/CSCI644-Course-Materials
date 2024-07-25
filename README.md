@@ -1,13 +1,13 @@
 ## About
 
-The course catalogue describes this course as follows:
+The course catalog describes this course as follows:
 
 ### Prerequisites:
-Prerequisites: CSCI 211 with a grade of C or higher.
+CSCI 311, or CSCI 605 and MATH/CSCI 485; and classified graduate standing.  
 
 ### Description
 
-   This course guides students through the fundamentals of Linux system administration. Topics include an exploration of the Linux Standard Base, user account and file system management, process and service management, operating system installation and configuration, and virtual and cloud environments. 
+   This course introduces students to distributed system administration skills, setting up distributed computation environments, version control, build systems, dependency management, continuous integration, testing, cloud virtualization technologies, and setting up mobile, web, machine learning, artificial intelligence, and data science pipelines.
 
 ### Hours
-   2 hours discussion, 2 hours activity.
+   3 hours discussion.
