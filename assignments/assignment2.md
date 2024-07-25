@@ -29,5 +29,5 @@ If you would like to merge your `assignment2` branch with your `main` branch, yo
 ```bash
 git checkout main  #switch to the main branch
 git merge assignment2  #join the development history from the assignment1 branch with the current (main) branch
-git push origin main  #push the assignment1 history up to the main branch on the remote
+git push origin main  #push the assignment2 history up to the main branch on the remote
 ```
