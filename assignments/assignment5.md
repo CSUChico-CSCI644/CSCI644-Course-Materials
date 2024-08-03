@@ -3,7 +3,11 @@
 ## Goals
 
 * Build a web CI/CD deployment pipeline for the [Simple Microservice Example](https://github.com/CSUChico-CSCI644/simple-microservice-example)
-* Add stages for linting and testing
+* Should have stages for the following:
+    * linting
+    * testing
+    * building
+    * deployment
 * Make a simple change to HTML to have your name **after** initially committing your linting and testing so that can be traced/seen from CI/CD pipeline results.
 
 
