@@ -2,7 +2,7 @@
 
 ## Goals
 
-* Build a CI/CD deployment pipeline for the [Simple AI Example]()
+* Build a CI/CD deployment pipeline for the [Simple AI Example](https://github.com/CSUChico-CSCI644/Simple-AI-Example)
 * Should have the following stages:
     * training
     * testing/validation
