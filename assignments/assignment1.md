@@ -9,7 +9,7 @@
 * Stop first VM
 * Clone the VM from a snapshot to a new VM in a different region.
 * Stop second VM
-* Delete frist VM
+* Delete first VM
 * Submit list of API commands used to accomplish this
 
 ## Submission
