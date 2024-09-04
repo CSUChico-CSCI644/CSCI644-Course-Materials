@@ -3,7 +3,13 @@
 ## Goals
 
 * Use gcloud APIs
-* Deploy [Simple Microservice Example](https://github.com/CSUChico-CSCI644/simple-microservice-example) to GCP via gcloud APIs
+* Make a new VM
+* Make a snapshot of the VM
+* Get status of first VM
+* Stop first VM
+* Clone the VM from a snapshot to a new VM in a different region.
+* Stop second VM
+* Delete frist VM
 * Submit list of API commands used to accomplish this
 
 ## Submission
