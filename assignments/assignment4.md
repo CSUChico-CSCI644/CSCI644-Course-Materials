@@ -4,7 +4,8 @@
 
 * Build on containerization of [Simple Microservice Example](https://github.com/CSUChico-CSCI644/simple-microservice-example) from assignment 3.
 * Deploy [Simple Microservice Example](https://github.com/CSUChico-CSCI644/simple-microservice-example) as a Kubernetes deployment.
-  * You should not publish any containers to container registries, everything should be built locally. Use of existing published official containers is allowed. 
+  * You should not publish any containers to container registries, everything should be built locally. Use of existing published official containers is allowed.
+* Build a run script to spin up everything on a fresh cluster.
 
 
 ## Submission
