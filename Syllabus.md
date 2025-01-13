@@ -129,6 +129,9 @@ I reserve the right to catch cheaters after the end of the semester. Just becaus
 
 In addition to this, you are welcome to share your final project code after the semester has ended; however, the individual assignments should never be publicly shared or shared with any students. These assignments are code you developed for me and I reserve the right to seek legal compensation or to get your degree revoked if you share the code you developed for me publicly after the semester ends and if you have graduated.
 
+### Large Language Model Usage
+Unless explicitly indicated, any suspected use of a LLM will result in a 0. They are not allowed for this course otherwise. 
+
 ## Religious Holidays
 
 I will work with students so this class and its assignments, exams, and activities do not interfere with religious holidays. However, you must notify me ahead of time so we can make appropriate arrangements.
