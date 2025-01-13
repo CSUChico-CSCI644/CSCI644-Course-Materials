@@ -4,9 +4,14 @@
 
 * Build on containerization of [Simple Microservice Example](https://github.com/CSUChico-CSCI644/simple-microservice-example) from assignment 3.
 * Deploy [Simple Microservice Example](https://github.com/CSUChico-CSCI644/simple-microservice-example) as a Kubernetes deployment.
+  * You should not publish any containers to container registries, everything should be built locally. Use of existing published official containers is allowed. 
 
 
 ## Submission
+
+You should submit **all** files needed to build and deploy. You should also submit a run script that will start your minikube cluster, build, and deploy all from the single script.
+
+### Submitting
 
 If you don't have a CSCI644 Git repo, go to Canvas to see the instructions for generating a Git Repo for this class.
 
