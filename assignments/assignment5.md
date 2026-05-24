@@ -41,6 +41,19 @@ For grading, make this exact change in `FrontendApplication/src/index.html`:
 Replace `First Last` with your real name. Place this line inside the existing
 hero section under the subtitle so it is visible on the page.
 
+## Video Recording
+
+In addition to submitting your code to the course repo, submit a short screen
+recording to Canvas. Do not commit the video file to Git.
+
+In the recording, walk through your submission and explain what each major part
+does. Show your `.gitlab-ci.yml`, explain the linting, testing, building, and
+deployment stages, show where the `latest` image is published or retagged, and
+show the required HTML name change.
+
+The goal is not video production quality. The goal is to show that you
+understand the work you submitted and can explain the choices in your own words.
+
 ## Submission
 
 If you don't have a CSCI644 Git repo, go to Canvas to see the instructions for generating a Git Repo for this class.

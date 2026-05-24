@@ -33,6 +33,18 @@ running the contract tests from the target VM:
 make test-e2e BASE_URL=http://localhost
 ```
 
+## Video Recording
+
+In addition to submitting your code to the course repo, submit a short screen
+recording to Canvas. Do not commit the video file to Git.
+
+In the recording, walk through your submission and explain what each major part
+does. Show your Ansible playbooks, templates, inventory or variable files, and
+the final verification step that runs the contract test suite.
+
+The goal is not video production quality. The goal is to show that you
+understand the work you submitted and can explain the choices in your own words.
+
 ## Submission
 
 If you don't have a CSCI644 Git repo, go to Canvas to see the instructions for generating a Git Repo for this class.

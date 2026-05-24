@@ -54,6 +54,18 @@ The script may call helper scripts, but a grader should be able to run
 `./run-local-k8s.sh` from the repo root without manually editing IP addresses or
 opening a separate terminal for port forwarding.
 
+## Video Recording
+
+In addition to submitting your code to the course repo, submit a short screen
+recording to Canvas. Do not commit the video file to Git.
+
+In the recording, walk through your submission and explain what each major part
+does. Show your Kubernetes manifests, ConfigMaps, Secrets, probes, storage,
+MongoDB seed approach, service exposure, and `run-local-k8s.sh` script.
+
+The goal is not video production quality. The goal is to show that you
+understand the work you submitted and can explain the choices in your own words.
+
 ## Submission
 
 You should submit **all** files needed to build and deploy. You should also submit a run script that will start your minikube cluster, build, and deploy all from the single script.

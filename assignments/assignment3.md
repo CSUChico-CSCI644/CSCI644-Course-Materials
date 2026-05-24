@@ -38,6 +38,19 @@ make test-e2e BASE_URL=http://localhost:8080
 Include a `verification.md` file with the command you ran and the final contract
 test output.
 
+## Video Recording
+
+In addition to submitting your code to the course repo, submit a short screen
+recording to Canvas. Do not commit the video file to Git.
+
+In the recording, walk through your submission and explain what each major part
+does. Show your Dockerfiles, `docker-compose.yml`, service environment
+variables, health checks, volumes, networking choices, and the contract test
+result.
+
+The goal is not video production quality. The goal is to show that you
+understand the work you submitted and can explain the choices in your own words.
+
 ## Submission
 
 If you don't have a CSCI644 Git repo, go to Canvas to see the instructions for generating a Git Repo for this class.

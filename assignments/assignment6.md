@@ -11,6 +11,19 @@
 * Commit the pipeline with the initial model, then improve the model and trigger the pipeline again. Finally, trigger the pipeline, with a model that is worse to demo that the deployment only happens if model is improved.
 
 
+## Video Recording
+
+In addition to submitting your code to the course repo, submit a short screen
+recording to Canvas. Do not commit the video file to Git.
+
+In the recording, walk through your submission and explain what each major part
+does. Show your pipeline configuration, training stage, validation/testing
+stage, deployment decision logic, and the pipeline runs that demonstrate both an
+improved model deployment and a worse model not being deployed.
+
+The goal is not video production quality. The goal is to show that you
+understand the work you submitted and can explain the choices in your own words.
+
 ## Submission
 
 If you don't have a CSCI644 Git repo, go to Canvas to see the instructions for generating a Git Repo for this class.
