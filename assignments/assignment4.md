@@ -7,6 +7,52 @@
   * You should not publish any containers to container registries, everything should be built locally. Use of existing published official containers is allowed.
 * Build a run script to spin up everything on a fresh cluster.
 
+## Deployment Requirements
+
+Run Kubernetes locally with Minikube. The application code already includes
+health checks, readiness checks, runtime configuration, seed data, and
+end-to-end contract tests. Your work is to express the deployment correctly in
+Kubernetes.
+
+Your Kubernetes deployment must:
+
+* Include Deployments and Services for the frontend/NGINX, API Gateway,
+  QuoteService, MongoDB, and Redis.
+* Configure non-secret values with ConfigMaps and secret values with Secrets.
+* Add liveness and readiness probes that use the provided `/healthz` and
+  `/readyz` endpoints.
+* Run the MongoDB seed script using a repeatable Job or initContainer approach.
+* Use appropriate local storage for MongoDB data.
+* Expose the application from Minikube to the host at `http://localhost:8080`
+  using `kubectl port-forward`, a NodePort, or `minikube service`.
+
+The deployment is considered working when this passes from the host machine:
+
+```bash
+make test-e2e BASE_URL=http://localhost:8080
+```
+
+## Local Verification Script
+
+Include an executable script named `run-local-k8s.sh` in the root of your repo.
+This script is for local grading and repeatable verification. It must:
+
+* Create or start a dedicated Minikube profile for this assignment.
+* Build or load the application images needed by your Kubernetes manifests.
+* Deploy your Kubernetes manifests.
+* Wait for the deployments to become ready.
+* Expose the application to the host at `http://localhost:8080`.
+* Run:
+
+```bash
+make test-e2e BASE_URL=http://localhost:8080
+```
+
+* Clean up by deleting the Minikube profile, even if the verification fails.
+
+The script may call helper scripts, but a grader should be able to run
+`./run-local-k8s.sh` from the repo root without manually editing IP addresses or
+opening a separate terminal for port forwarding.
 
 ## Submission
 
@@ -18,7 +64,7 @@ If you don't have a CSCI644 Git repo, go to Canvas to see the instructions for g
 
 You will submit many of the the assignments for this class to separate branches on your CSCI644 repo. Make sure you make an initial **main** branch first as this will make things easier.
 
-Now submit your all necessary files including your kubernetes *yaml* deployment file(s) to the **assignment4** branch:
+Now submit your all necessary files including your kubernetes *yaml* deployment file(s) and `run-local-k8s.sh` to the **assignment4** branch:
 
 ```bash
 git checkout -b assignment4  #create branch and switch to it

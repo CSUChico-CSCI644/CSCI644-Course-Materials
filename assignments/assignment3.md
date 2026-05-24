@@ -12,6 +12,32 @@
         - Should be able to use the default redis container image
 * Create *docker-compose.yml* file to spin up the microservice
 
+## Deployment Requirements
+
+The application code already includes health checks, readiness checks, runtime
+configuration, seed data, and end-to-end contract tests. Your work is to
+containerize and connect the services correctly.
+
+Your Docker Compose deployment must:
+
+* Start the frontend, NGINX, API Gateway, QuoteService, MongoDB, and Redis.
+* Make the application reachable from the host at `http://localhost:8080`.
+* Configure service hostnames, ports, usernames, and passwords through Compose
+  environment variables instead of editing application source files.
+* Use a repeatable MongoDB seed/init approach that does not duplicate seed data.
+* Include health checks for services that have `/healthz` or `/readyz` endpoints.
+* Preserve Redis-backed quote count behavior across API calls while the stack is
+  running.
+
+The deployment is considered working when this passes from the repo root:
+
+```bash
+make test-e2e BASE_URL=http://localhost:8080
+```
+
+Include a `verification.md` file with the command you ran and the final contract
+test output.
+
 ## Submission
 
 If you don't have a CSCI644 Git repo, go to Canvas to see the instructions for generating a Git Repo for this class.

@@ -7,6 +7,32 @@
 * Deploy [Simple Microservice Example](https://github.com/CSUChico-CSCI644/simple-microservice-example) to GCP via Ansible and Ansible gcloud support
 * Submit Ansible Playbook(s) to accomplish this.
 
+## Deployment Requirements
+
+Your playbook should create the GCP instance and deploy the application to it.
+The application code already includes health checks, readiness checks, runtime
+configuration, seed data, and end-to-end contract tests. Your work is to deploy
+and configure those pieces correctly.
+
+Your Ansible deployment must:
+
+* Configure required service environment variables without hard-coding hostnames
+  or secrets in the application source.
+* Run the MongoDB seed script in a way that is safe to repeat.
+* Configure NGINX so the frontend and `/api/` routes are reachable from one base
+  URL. A domain name is not required.
+* Start MongoDB, Redis, QuoteService, API Gateway, and NGINX using repeatable
+  Ansible tasks.
+* Run the contract test suite as the final verification step of the playbook.
+  The playbook should fail if the contract tests fail.
+
+The deployment is considered working when the Ansible playbook finishes by
+running the contract tests from the target VM:
+
+```bash
+make test-e2e BASE_URL=http://localhost
+```
+
 ## Submission
 
 If you don't have a CSCI644 Git repo, go to Canvas to see the instructions for generating a Git Repo for this class.
