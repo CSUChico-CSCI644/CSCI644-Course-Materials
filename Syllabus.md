@@ -113,7 +113,7 @@ The bottom line is that you must do all the assignments on your own. Turning in 
 * giving your laptop that contains your program to another student
 * getting so much help on an assignment that you are no longer doing the assignment (this can come from one helper or many helpers)
 * crowdsourcing your code
-* Having a LLM do your assignments
+* having an LLM do your assignments or submitting LLM-generated work you cannot explain
 * the list can go on...
 
 
@@ -130,7 +130,39 @@ I reserve the right to catch cheaters after the end of the semester. Just becaus
 In addition to this, you are welcome to share your final project code after the semester has ended; however, the individual assignments should never be publicly shared or shared with any students. These assignments are code you developed for me and I reserve the right to seek legal compensation or to get your degree revoked if you share the code you developed for me publicly after the semester ends and if you have graduated.
 
 ### Large Language Model Usage
-Unless explicitly indicated, any suspected use of a LLM will result in a 0. They are not allowed for this course otherwise. 
+
+I recommend that you do not use large language models (LLMs) to produce your
+assignment submissions. The main value of this course is the practice of
+building, debugging, deploying, and explaining the systems yourself.
+
+Limited LLM use for clarification is allowed. Examples include asking an LLM to
+explain an error message, summarize documentation, review the meaning of a
+command, or help you understand a concept discussed in class. You are still
+responsible for verifying the answer and applying it correctly.
+
+If you use an LLM in any way for an assignment, you must cite that usage with
+your submission. Your citation should include:
+
+* the tool or model used, if known
+* the date used
+* what you used it for
+* the prompts you gave it
+* a brief summary of what help you took from the response
+* a link to the conversation when the tool supports sharing links, or enough of
+  the relevant prompt/response text for me to understand the interaction
+
+You should not ask an LLM to complete the assignment for you, generate large
+parts of your submission, or make decisions you do not understand. If you use an
+LLM heavily for code, configuration, debugging, design, tests, or deployment
+steps, I will expect a stronger demonstration of understanding in your video
+recording submission. In that case, your video should explain the important
+files, commands, configuration choices, errors encountered, fixes applied, and
+why the final submission works. "The LLM generated it" is not an acceptable
+explanation.
+
+You are responsible for everything you submit, including anything suggested by
+an LLM. Incorrect, insecure, uncited, fabricated, or unexplainable work may
+receive reduced credit or be treated as an academic honesty issue.
 
 ## Religious Holidays
 
@@ -166,4 +198,3 @@ The CSU requires students to be fully vaccinated against COVID-19 by September 3
 Please note that dishonesty relating to the vaccination policy and/or your failure to comply with any other COVID-19 related safety policy or mandate, including the face covering requirement, may result in disciplinary action against you through the office of Student Conduct, Rights and Responsibilities, which can include suspension or expulsion from the California State University system.
 
 Individuals unable to wear a face covering due to a medical condition should contact the Accessibility Resource Center by phone at (530) 898-5959 or by email at arcdept@csuchico.edu. If an ARC accomadation is not recieved I will assume you are failing to comply with the with the campus requirements and report you to the office of Student Conduct, Rights and Responsibilities mentioned above.
-
