@@ -48,7 +48,8 @@ I will routinely post the grades to Canvas. If you are not happy with a grade, t
 
 ### Grade Category Percentages:
 
-+ Assignments 80% of course grade
++ Assignments 70% of course grade
++ Exams 10% of course grade
 + Readings 10% of course grade
 + Participation during paper discussions 10% of course grade 
 
