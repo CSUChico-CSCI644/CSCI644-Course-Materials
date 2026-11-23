@@ -37,7 +37,7 @@ make test-e2e BASE_URL=http://localhost:8080
 Include an executable script named `run-local-k8s.sh` in the root of your repo.
 This script is for local grading and repeatable verification. It must:
 
-* Create or start a dedicated Minikube profile for this assignment.
+* Create or start the default Minikube profile.
 * Build or load the application images needed by your Kubernetes manifests.
 * Deploy your Kubernetes manifests.
 * Wait for the deployments to become ready.
@@ -47,8 +47,6 @@ This script is for local grading and repeatable verification. It must:
 ```bash
 make test-e2e BASE_URL=http://localhost:8080
 ```
-
-* Clean up by deleting the Minikube profile, even if the verification fails.
 
 The script may call helper scripts, but a grader should be able to run
 `./run-local-k8s.sh` from the repo root without manually editing IP addresses or
